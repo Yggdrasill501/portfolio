@@ -83,3 +83,44 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
+
+p.danger{
+  color: red;
+}
+
+nav.navbar{
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  transition:  0.32s ease-in-out;
+}
+
+nav.navbar.scrolled{
+  padding: 0;
+  background-color: #000000;
+}
+
+nav.navbar a.navbar-brand{
+  width: 9%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link{
+  font-weight: 400;
+  color: #ffffff !important;
+  letter-spacing: 1px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+
+span.navbar-text{
+  display: flex;
+  align-items: center;
+}
+
+.social-icon{
+  display: inline-block;
+  margin-left: 14px;
+}
